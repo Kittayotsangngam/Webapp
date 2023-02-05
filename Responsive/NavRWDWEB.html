@@ -73,11 +73,35 @@
         .moond .card-body i{
             font-size: 50px;
         }
+        .star .card-body i {
+            font-size: 50px;
+        }
+        .galaxy .card-body i {
+            font-size: 50px;
+        }
+        .moo .card-body i{
+            font-size: 20px;
+        }
+        .star .card-body {
+            box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        .galaxy .card-body {
+            box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        .moo .card-body {
+            box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+        }
         @media only screen and (min-width: 768px) and (max-width:991px) {
             .carousel-caption{
                 bottom: 350px;
             }
             .carousel-caption p{
+                width: 100%;
+            }
+            .card{
+                margin-bottom: 30px;
+            }
+            .img-area img{
                 width: 100%;
             }
         }
@@ -100,11 +124,18 @@
                 line-height: 1.6;
                 font-size: 12px;
             }
+            .about-text{
+                padding-top:50px;
+            }
+            .card{
+                margin-bottom: 30px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
+        <section id="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">Moon</a>
@@ -129,12 +160,18 @@
                     <a class="nav-link" href="#moo">Moon</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="#galaxy">Galaxy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#fallenstar">Fallenstar</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                   </li>
-
               </div>
             </div>
           </nav>
+        </section>
     </header>
     <main>
         <div id="carouselExampleCaptions" class="carousel slide">
@@ -250,6 +287,297 @@
             </div>
 
           </section>
+          <section id="star" class="star section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2>1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptatum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">2</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">3</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">4</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section id="moo" class="moo section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2>2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptatum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="https://nypost.com/wp-content/uploads/sites/2/2022/03/wifi-moon-08.jpg?quality=75&strip=all" alt="" class="img-fluid rounded-circle">
+                                <h3 class="card-title py-2">22</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima odio iure maiores perspiciatis cum. Nihil veniam, nostrum iusto assumenda consequatur dolor magni doloribus ea praesentium repudiandae nulla rem vero ad!</p>
+
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="https://nypost.com/wp-content/uploads/sites/2/2022/03/wifi-moon-08.jpg?quality=75&strip=all" alt="" class="img-fluid rounded-circle">
+                                <h3 class="card-title py-2">22</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima odio iure maiores perspiciatis cum. Nihil veniam, nostrum iusto assumenda consequatur dolor magni doloribus ea praesentium repudiandae nulla rem vero ad!</p>
+
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="https://nypost.com/wp-content/uploads/sites/2/2022/03/wifi-moon-08.jpg?quality=75&strip=all" alt="" class="img-fluid rounded-circle">
+                                <h3 class="card-title py-2">22</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima odio iure maiores perspiciatis cum. Nihil veniam, nostrum iusto assumenda consequatur dolor magni doloribus ea praesentium repudiandae nulla rem vero ad!</p>
+
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="https://nypost.com/wp-content/uploads/sites/2/2022/03/wifi-moon-08.jpg?quality=75&strip=all" alt="" class="img-fluid rounded-circle">
+                                <h3 class="card-title py-2">22</h3>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima odio iure maiores perspiciatis cum. Nihil veniam, nostrum iusto assumenda consequatur dolor magni doloribus ea praesentium repudiandae nulla rem vero ad!</p>
+
+                                <p class="socials">
+                                    <i class="bi bi-twitter text-dark mx-1"></i>
+                                    <i class="bi bi-facebook text-dark mx-1"></i>
+                                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                                    <i class="bi bi-instagram text-dark mx-1"></i>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section id="galaxy" class="galaxy section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2>1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptatum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">2</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">3</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">4</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section id="fallenstar" class="fallenstar section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2>1</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptatum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">2</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">3</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-white pb-2">
+                            <div class="card-body text-dark">
+                                <div class="img-area mb-4">
+                                    <img src="https://c.tadst.com/gfx/600x337/supermoon-rise.jpg?2" alt="" class="img-fluid">
+                                    <h3 class="card-title">4</h3>
+                                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab quos itaque facilis, tempora perferendis illum. Repudiandae libero amet, cumque eius incidunt harum id qui quibusdam nobis, dignissimos consequatur sint culpa!</p>
+                                    <button class="btn bg-warning text-dark">Learn More</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2>2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptatum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="col-md-12 p-0 pt-4 pb-4">
+                        <form action="#" class="bg-light p-4.m-auto" >
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" required placeholder="Moon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" required placeholder="Moon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <textarea row="3" required class="form-control" placeholder="MoonQuestion" ></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn btn-warning btn-lg btn-block mt-3">Send Moon</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </section>
     </main>
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">Copy Right @Kittayot 64010017</p>
+        </div>
+    </footer>
 </body>
 </html>
