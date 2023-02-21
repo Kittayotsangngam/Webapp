@@ -4,20 +4,25 @@
     <body>
         <div id="maincontainer"></div>
         <script>
-            // Main
+            // Id
             const MainContainer = document.getElementById("maincontainer");
 
-            //h2
+            //header
             const h2 = document.createElement("h2");
+            const header = document.createElement("header");
             h2.innerHTML = "Exercise 04 : JavaScript&DOM";
-            MainContainer.appendChild(h2);
+            MainContainer.appendChild(header);
+            header.appendChild(h2)
 
-            //button 
+            //main
+            const main =document.createElement("main")
+            //button
             const div =document.createElement('div');
             const btn = document.createElement('button');
             btn.innerHTML = "Click me to display Date and Time";
             div.style.height ="40px";
-            MainContainer.appendChild(div);
+            MainContainer.appendChild(main);
+            main.appendChild(div);
             div.appendChild(btn);
 
             //click
@@ -61,7 +66,7 @@
 
             let info =["Kittayot Sang-ngam, ID: 64010017", "ID 64010017", "WEB APPLICATION DEVELOPMENT", "Semester 2"];
             p.innerHTML = "Personal Info";
-            MainContainer.appendChild(div2);
+            main.appendChild(div2);
             div2.appendChild(p);
 
             function togglePersonalID() {
@@ -85,7 +90,7 @@
             for (let i=0; i<3;i++){
                 const li = document.createElement('li');
                 const span = document.createElement('span');
-                span.textContent = info[i];
+                span.innerHTML = info[i];
                 ul.appendChild(li);
                 li.appendChild(span);
             }
@@ -105,8 +110,7 @@
             const img = document.createElement('img');
             h1.style.marginTop ="0px";
             h1.innerHTML="Snapshots";
-            MainContainer.appendChild(div3);
-            div3.append(h1,ul2);
+            main.appendChild(div3)
 
             
             //show img
@@ -120,18 +124,19 @@
 
                 const li = document.createElement('li');
                 const span = document.createElement('span');
-                span.textContent = snapname[i];
-                ul2.appendChild(li);
-                li.appendChild(span);
+                span.innerHTML = snapname[i];
                 span.style.cssText = 'text-decoration:underline;color:blue;cursor:pointer;';
                 span.onclick = function changeimg() { 
                     img.src = srcimage[i]; 
-
                 };
+                ul2.appendChild(li);
+                li.appendChild(span);
             }
-            div3.appendChild(img)
+            div3.append(h1,ul2);
+
             img.src = 'https://upload.wikimedia.org/wikipedia/commons/3/35/KMITL_PCC.png';
             img.style.width = '600px';
+            div3.appendChild(img)
 
 
         </script>
