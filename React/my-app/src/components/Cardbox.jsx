@@ -4,7 +4,7 @@ import { Button } from "./Button";
 export const Cardbox = (props) =>{
     const [vote,setVote]=useState(0)
     const increaseVote =()=>{
-        if (vote ===10){
+        if (vote === 10){
             alert("Cannot Vote more")
         }else{
             setVote(vote+1)
